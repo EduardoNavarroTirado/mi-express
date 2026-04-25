@@ -27,8 +27,7 @@ app.get('/alumnos/:id', async (req, res) => {
     }
 
     const resultado = await pool.query(
-      'SELECT * FROM alumno WHERE id = $1',
-      [id]
+      SELECT * FROM alumnos WHERE id = $1
     );
 
     if (resultado.rows.length === 0) {
