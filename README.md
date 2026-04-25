@@ -1,9 +1,3 @@
 # mi-express
-Proyecto: API con Express y PostgreSQL
-
-Funcionalidad:
-- Conexión a PostgreSQL
-- Consulta SELECT de alumnos
-
-Ruta:
-http://localhost:3000/alumnos
+Este proyecto es una API REST desarrollada con **Node.js, Express y PostgreSQL**,
+que permite realizar operaciones CRUD básicas sobre las tablas **alumno** y **materia**.
